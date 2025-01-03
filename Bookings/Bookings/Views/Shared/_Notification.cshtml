@@ -1,0 +1,23 @@
+@* This temp data is used to display notification for any process  *@
+@* either a success message or teh error message *@
+@if (TempData["error"] != null)
+{
+    // We are adding toastr so that the notification will loog better
+    //The jquery tag is at the footer section just add here as well
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    //This is from teh CDN TOASTR website teh full script 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+                //Add teh temp data inside teh toastr
+                toastr.success('@TempData["error"]');
+            
+            </script>
+}
+@if (TempData["success"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+                toastr.success('@TempData["success"]');            
+            </script>
+}

@@ -3,47 +3,20 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Bookings.Infrastructure.Data;
 
+
+//Creating a application db context by implementing the dbcontext interface
 public class ApplicationDbContext : DbContext
 {
+    //Making application db context as a option and make it as a base option
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
         
     }
 
+    //When creating a model make it a db set so that a table can be created in the database
     public DbSet<Villa> Villas { get; set; }
+    public DbSet<VillaNumber> VillaNumberss { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<Villa>().HasData(
-            new Villa
-            {
-                Id = 1,
-                Name = "Royal Villa",
-                Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                ImageUrl = "https://placehold.co/600x400",
-                Occupancy = 4,
-                Price = 200,
-                Sqft = 550,
-            },
-            new Villa
-            {
-                Id = 2,
-                Name = "Premium Pool Villa",
-                Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                ImageUrl = "https://placehold.co/600x401",
-                Occupancy = 4,
-                Price = 300,
-                Sqft = 550,
-            },
-            new Villa
-            {
-                Id = 3,
-                Name = "Luxury Pool Villa",
-                Description = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                ImageUrl = "https://placehold.co/600x402",
-                Occupancy = 4,
-                Price = 400,
-                Sqft = 750,
-            });
-    }
+   
+
 }

@@ -4,6 +4,7 @@ namespace Bookings.Domain.Entities;
 
 public class Villa
 {
+    //Typing in all teh required fields for the input and the validations
     public int Id { get; set; }
     
     [MaxLength(50)]
