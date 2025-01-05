@@ -2711,7 +2711,10 @@
         },
         "runtime": {
           "bin/placeholder/Bookings.Domain.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Bookings.Infrastructure/1.0.0": {
         "type": "project",

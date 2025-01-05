@@ -1503,7 +1503,10 @@
         },
         "runtime": {
           "bin/placeholder/Bookings.Domain.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
