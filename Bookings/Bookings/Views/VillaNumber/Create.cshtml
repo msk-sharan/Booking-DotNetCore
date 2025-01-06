@@ -1,5 +1,5 @@
 @using System.Collections.Specialized
-@model VillaNumber
+@model VillaNumberVM
 
 <div class="w-100 card-border-0 p-4">
     <div class="card-header bg-success bg-gradient ml-0 py-3">
@@ -18,25 +18,28 @@
                     @* If the user selects an option, the VillaId property in the model will hold the Value
                      of the selected <option>. *@
                     @* The asp-items are teh options of teh dropdown *@
-                    <select asp-for="@Model.VillaId" asp-items="@ViewData["VillaList"] as IEnumerable<SelectListItem>"
-                            class="form-select border shadow">
+                    
+                    @* <select asp-for="@Model.VillaId" asp-items="@ViewData["VillaList"] as IEnumerable<SelectListItem>" *@
+                    @* While using viewbag we dont have to convert it into IEnumerable *@
+                    <select asp-for="@Model.VillaNumber.VillaId" asp-items="@Model.VillaList"
+                    class="form-select border shadow">
                         @* Dissabled is used so that the select villa option cannot be selected and selected is mentioned so  *@
                         @* that the select villa acts as a place holder *@
                         <option disabled selected>--Select Villa--</option>
                     </select>
                     @* <input asp-for="VillaId" class="form-control border shadow"/> *@
-                    <label asp-for="VillaId" class="ms-2"></label>
-                    <span asp-validation-for="VillaId" class="text-danger"></span>
+                    <label asp-for="VillaNumber.VillaId" class="ms-2"></label>
+                    <span asp-validation-for="VillaNumber.VillaId" class="text-danger"></span>
                 </div>
                 <div class="form-floating py-1 col-12">
-                    <input asp-for="Villa_Number" class="form-control border shadow"/>
-                    <label asp-for="Villa_Number" class="ms-2"></label>
-                    <span asp-validation-for="Villa_Number" class="text-danger"></span>
+                    <input asp-for="VillaNumber.Villa_Number" class="form-control border shadow"/>
+                    <label asp-for="VillaNumber.Villa_Number" class="ms-2"></label>
+                    <span asp-validation-for="VillaNumber.Villa_Number" class="text-danger"></span>
                 </div>
                 <div class="form-floating py-1 col-12">
-                    <input asp-for="SpecialDetails" class="form-control border shadow"/>
-                    <label asp-for="SpecialDetails" class="ms-2"></label>
-                    <span asp-validation-for="SpecialDetails" class="text-danger"></span>
+                    <input asp-for="VillaNumber.SpecialDetails" class="form-control border shadow"/>
+                    <label asp-for="VillaNumber.SpecialDetails" class="ms-2"></label>
+                    <span asp-validation-for="VillaNumber.SpecialDetails" class="text-danger"></span>
                 </div>
                 <div class="row pt-2">
                     <div class="col-6 col-md-3">

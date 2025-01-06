@@ -16,3 +16,5 @@
 /Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Domain.dll
 /Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Domain.pdb
 /Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.CC050BF8.Up2Date
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Application.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Application.pdb

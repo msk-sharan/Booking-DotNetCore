@@ -1,3 +1,4 @@
+using Bookings.Application.Common.Interfaces;
 using Bookings.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,7 +11,11 @@ builder.Services.AddControllersWithViews();
 //The db context is added as a service with sql server
 builder.Services.AddDbContext<ApplicationDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
- 
+
+//THis id teh dependency injection of teh villa repository the add scoped parameters define that whenever the 
+//IVillarepository is being called it should know that teh implementation is non teh villa repository
+builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+
 //Creating an instance of the web application
 var app = builder.Build();
 

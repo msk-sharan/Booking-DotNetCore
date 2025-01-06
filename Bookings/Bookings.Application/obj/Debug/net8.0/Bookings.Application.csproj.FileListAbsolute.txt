@@ -1,0 +1,16 @@
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/bin/Debug/net8.0/Bookings.Application.deps.json
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/bin/Debug/net8.0/Bookings.Application.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/bin/Debug/net8.0/Bookings.Application.pdb
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/bin/Debug/net8.0/Bookings.Domain.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/bin/Debug/net8.0/Bookings.Domain.pdb
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.Application.csproj.AssemblyReference.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.Application.AssemblyInfoInputs.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.Application.AssemblyInfo.cs
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.Application.csproj.CoreCompileInputs.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.Application.sourcelink.json
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.AEAB3062.Up2Date
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.Application.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/refint/Bookings.Application.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/Bookings.Application.pdb
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/obj/Debug/net8.0/ref/Bookings.Application.dll

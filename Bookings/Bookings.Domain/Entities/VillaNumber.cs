@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+
 
 namespace Bookings.Domain.Entities;
 
@@ -16,7 +18,7 @@ public class VillaNumber
     public int VillaId { get; set; }
     //this is the navigation property , this allows to navigate to the related villa entity directly when working with teh instance of the class
     //This is depricated
-    // [ValidateNever]
+    [ValidateNever]
     public Villa Villa { get; set; }
     public string? SpecialDetails { get; set; }
 }

@@ -1898,6 +1898,17 @@
           }
         }
       },
+      "Bookings.Application/1.0.0": {
+        "dependencies": {
+          "Bookings.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Bookings.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Bookings.Domain/1.0.0": {
         "runtime": {
           "Bookings.Domain.dll": {
@@ -1908,7 +1919,7 @@
       },
       "Bookings.Infrastructure/1.0.0": {
         "dependencies": {
-          "Bookings.Domain": "1.0.0",
+          "Bookings.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11"
         },
         "runtime": {
@@ -3024,6 +3035,11 @@
       "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
+    },
+    "Bookings.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Bookings.Domain/1.0.0": {
       "type": "project",

@@ -66,8 +66,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlsbGFOdW1iZXIvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings/Views/VillaNumber/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlsbGFOdW1iZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings/Views/VillaNumber/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlsbGFOdW1iZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings/Views/VillaNumber/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlsbGFOdW1iZXIvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings/Views/_ViewImports.cshtml]
