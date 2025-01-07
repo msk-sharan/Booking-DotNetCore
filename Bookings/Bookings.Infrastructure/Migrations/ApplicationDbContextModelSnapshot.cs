@@ -22,6 +22,31 @@ namespace Bookings.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Bookings.Domain.Entities.Amenity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Discription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("VillaId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VillaId");
+
+                    b.ToTable("Amenities");
+                });
+
             modelBuilder.Entity("Bookings.Domain.Entities.Villa", b =>
                 {
                     b.Property<int>("Id")
@@ -77,6 +102,17 @@ namespace Bookings.Infrastructure.Migrations
                     b.HasIndex("VillaId");
 
                     b.ToTable("VillaNumberss");
+                });
+
+            modelBuilder.Entity("Bookings.Domain.Entities.Amenity", b =>
+                {
+                    b.HasOne("Bookings.Domain.Entities.Villa", "Villa")
+                        .WithMany()
+                        .HasForeignKey("VillaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Villa");
                 });
 
             modelBuilder.Entity("Bookings.Domain.Entities.VillaNumber", b =>

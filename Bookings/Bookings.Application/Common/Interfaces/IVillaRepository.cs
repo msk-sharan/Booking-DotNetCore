@@ -32,6 +32,5 @@ public interface IVillaRepository : IRepository<Villa>
     // void Add(Villa entity);
     // void Remove(Villa entity);
     void Update(Villa entity);
-    void Save();
 
 }

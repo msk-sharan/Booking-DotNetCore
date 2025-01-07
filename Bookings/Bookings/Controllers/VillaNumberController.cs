@@ -1,3 +1,4 @@
+using Bookings.Application.Common.Interfaces;
 using Bookings.Domain.Entities;
 using Bookings.Infrastructure.Data;
 using Bookings.ViewModels;
@@ -9,15 +10,15 @@ namespace Bookings.Controllers;
 
 public class VillaNumberController : Controller
 {
-    private readonly ApplicationDbContext _db;
+    private readonly IUnitOfWork _unitOfWork;
 
-    public VillaNumberController(ApplicationDbContext db)
+    public VillaNumberController(IUnitOfWork unitOfWork)
     {
-        _db = db;
+        _unitOfWork = unitOfWork;
     }
     public IActionResult Index()
     {
-        var villaNumber = _db.VillaNumberss.Include(u=>u.Villa).ToList();
+        var villaNumber = _unitOfWork.VillaNumber.GetAll(includeProperties:"Villa");
         return View(villaNumber);
     }
 
@@ -48,7 +49,7 @@ public class VillaNumberController : Controller
         //we can use this method instead of the old method os that we can pass teh method to teh view as normal
         VillaNumberVM villaNumberVm = new()
         {
-            VillaList = _db.Villas.ToList().Select(u => new SelectListItem
+            VillaList = _unitOfWork.Villa.GetAll().Select(u => new SelectListItem
             {
                 Text = u.Name,
                 Value = u.Id.ToString()
@@ -61,14 +62,14 @@ public class VillaNumberController : Controller
     public IActionResult Create(VillaNumberVM obj)
     {
         //This checks if the villa number already exists or not
-        bool roomNumberExists = _db.VillaNumberss.Any(u => u.Villa_Number == obj.VillaNumber.Villa_Number);
+        bool roomNumberExists = _unitOfWork.VillaNumber.Any(u => u.Villa_Number == obj.VillaNumber.Villa_Number);
         
         //We can do this so that it will not validate villa as it is just a navigator or we can just use validate never
         // ModelState.Remove("Villa");
         if (ModelState.IsValid && !roomNumberExists)
         {
-            _db.VillaNumberss.Add(obj.VillaNumber);
-            _db.SaveChanges();
+            _unitOfWork.VillaNumber.Add(obj.VillaNumber);
+            _unitOfWork.Save();
             TempData["success"] = "Villa NUmber Created successfully ";
             return RedirectToAction(nameof(Index));
         }
@@ -78,7 +79,7 @@ public class VillaNumberController : Controller
             TempData["error"] = "The Villa Number already Exists.";
         }
 
-        obj.VillaList = _db.Villas.ToList().Select(u => new SelectListItem
+        obj.VillaList = _unitOfWork.Villa.GetAll().Select(u => new SelectListItem
         {
             Text = u.Name,
             Value = u.Id.ToString()
@@ -90,12 +91,12 @@ public class VillaNumberController : Controller
     {
         VillaNumberVM villaNumberVm = new()
         {
-            VillaList = _db.Villas.ToList().Select(u => new SelectListItem
+            VillaList = _unitOfWork.Villa.GetAll().Select(u => new SelectListItem
             {
                 Text = u.Name,
                 Value = u.Id.ToString()
             }),
-            VillaNumber = _db.VillaNumberss.FirstOrDefault(u=>u.Villa_Number==villaNumberId)
+            VillaNumber = _unitOfWork.VillaNumber.Get(u=>u.Villa_Number==villaNumberId)
         };
         if (villaNumberVm.VillaNumber == null)
         {
@@ -113,13 +114,13 @@ public class VillaNumberController : Controller
         // ModelState.Remove("Villa");
         if (ModelState.IsValid )
         {
-            _db.VillaNumberss.Update(villaNumberVm.VillaNumber);
-            _db.SaveChanges();
+            _unitOfWork.VillaNumber.Update(villaNumberVm.VillaNumber);
+            _unitOfWork.Save();
             TempData["success"] = "Villa Number Updated successfully ";
             return RedirectToAction(nameof(Index));
         }
 
-        villaNumberVm.VillaList = _db.Villas.ToList().Select(u => new SelectListItem
+        villaNumberVm.VillaList = _unitOfWork.Villa.GetAll().Select(u => new SelectListItem
         {
             Text = u.Name,
             Value = u.Id.ToString()
@@ -131,12 +132,12 @@ public class VillaNumberController : Controller
     {
         VillaNumberVM villaNumberVm = new()
         {
-            VillaList = _db.Villas.ToList().Select(u => new SelectListItem
+            VillaList = _unitOfWork.Villa.GetAll().Select(u => new SelectListItem
             {
                 Text = u.Name,
                 Value = u.Id.ToString()
             }),
-            VillaNumber = _db.VillaNumberss.FirstOrDefault(u=>u.Villa_Number==villaNumberId)
+            VillaNumber = _unitOfWork.VillaNumber.Get(u=>u.Villa_Number==villaNumberId)
         };
         if (villaNumberVm.VillaNumber == null)
         {
@@ -149,13 +150,13 @@ public class VillaNumberController : Controller
     [HttpPost]
     public IActionResult Delete(VillaNumberVM villaNumberVm)
     {
-        VillaNumber? objFromDb = _db.VillaNumberss
-            .FirstOrDefault(u => u.Villa_Number == villaNumberVm.VillaNumber.Villa_Number);          
+        VillaNumber? objFromDb = _unitOfWork.VillaNumber
+            .Get(u => u.Villa_Number == villaNumberVm.VillaNumber.Villa_Number);          
         if (objFromDb is not null)
         {
             //We can use Remove keyword to delete a file
-            _db.VillaNumberss.Remove(objFromDb);
-            _db.SaveChanges();
+            _unitOfWork.VillaNumber.Remove(objFromDb);
+            _unitOfWork.Save();
             TempData["success"] = "Villa Number deleted successfully";
             //Instead of simply specifying the index name we can mention that in a name of method because 
             // when we simply specify teh index in teh double quotes it will not show any error for spelling

@@ -1,4 +1,6 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Http;
 
 namespace Bookings.Domain.Entities;
 
@@ -16,6 +18,9 @@ public class Villa
     public int Sqft { get; set; }
     [Range(1,10)]
     public int Occupancy { get; set; }
+    //Not mapped annotation tells the database not to add this to the table colum
+    [NotMapped]
+    public IFormFile? Image { get; set; }
     [Display(Name = "Image Url")]
     public String? ImageUrl { get; set; }
     public DateTime? Created_Date { get; set; }

@@ -69,12 +69,9 @@ public class VillaRepository : Repository<Villa>,IVillaRepository
 
     public void Update(Villa entity)
     {
-        _db.Update(entity);
+        _db.Villas.Update(entity);
     }
 
-    public void Save()
-    {
-        _db.SaveChanges();
-    }
+   
 }
 

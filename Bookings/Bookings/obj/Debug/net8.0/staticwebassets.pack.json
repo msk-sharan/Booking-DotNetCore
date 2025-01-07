@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets/Images/Room Images/7.jpg"
     },
     {
+      "Id": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings/wwwroot/Images/VillaImage/04aac176-72b5-450b-b61a-c48935d4a524.jpeg",
+      "PackagePath": "staticwebassets/Images/VillaImage/04aac176-72b5-450b-b61a-c48935d4a524.jpeg"
+    },
+    {
+      "Id": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings/wwwroot/Images/VillaImage/09b76505-3b72-49f4-aa9c-f04c21f2ccfb.jpeg",
+      "PackagePath": "staticwebassets/Images/VillaImage/09b76505-3b72-49f4-aa9c-f04c21f2ccfb.jpeg"
+    },
+    {
       "Id": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings/wwwroot/Images/accessDenied.jpg",
       "PackagePath": "staticwebassets/Images/accessDenied.jpg"
     },

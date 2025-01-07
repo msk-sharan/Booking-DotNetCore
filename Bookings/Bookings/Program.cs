@@ -1,5 +1,6 @@
 using Bookings.Application.Common.Interfaces;
 using Bookings.Infrastructure.Data;
+using Bookings.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
 //Creating an instance of teh web application builder
@@ -14,7 +15,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 
 //THis id teh dependency injection of teh villa repository the add scoped parameters define that whenever the 
 //IVillarepository is being called it should know that teh implementation is non teh villa repository
-builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+//Instead of using this repository we can use unit of work that has all the repositoriew
+// builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //Creating an instance of the web application
 var app = builder.Build();

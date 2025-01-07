@@ -16,6 +16,8 @@ public class ApplicationDbContext : DbContext
     //When creating a model make it a db set so that a table can be created in the database
     public DbSet<Villa> Villas { get; set; }
     public DbSet<VillaNumber> VillaNumberss { get; set; }
+    
+    public DbSet<Amenity> Amenities { get; set; }
 
    
 
