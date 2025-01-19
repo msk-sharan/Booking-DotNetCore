@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/Bookings.Domain.csproj",
+      "projectUniqueName": "/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/Bookings.Domain.csproj",
       "projectName": "Bookings.Domain",
-      "projectPath": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/Bookings.Domain.csproj",
+      "projectPath": "/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/Bookings.Domain.csproj",
       "packagesPath": "/Users/sharan/.nuget/packages/",
-      "outputPath": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/",
+      "outputPath": "/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sharan/.nuget/NuGet/NuGet.Config"

@@ -1,6 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace Bookings.Domain.Entities;
 
@@ -25,4 +26,8 @@ public class Villa
     public String? ImageUrl { get; set; }
     public DateTime? Created_Date { get; set; }
     public DateTime? Updated_Date { get; set; }
+    
+    //This is used in teh home view 
+    [ValidateNever]
+    public IEnumerable<Amenity>? VillaAmenity { get; set; }
 }

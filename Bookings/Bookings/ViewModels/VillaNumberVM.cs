@@ -11,5 +11,5 @@ public class VillaNumberVM
     public IEnumerable<SelectListItem>? VillaList { get; set; }
 }
 
-//We are usig this data as a seperate model because we dont have to use viewdata and viewbag we can pass
+//We are using this data as a seperate model because we dont have to use viewdata and viewbag we can pass
 //teh data from tha controller to teh view through this method it will be the cleaner approch.

@@ -4048,11 +4048,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/Bookings.Infrastructure.csproj",
+      "projectUniqueName": "/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/Bookings.Infrastructure.csproj",
       "projectName": "Bookings.Infrastructure",
-      "projectPath": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/Bookings.Infrastructure.csproj",
+      "projectPath": "/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/Bookings.Infrastructure.csproj",
       "packagesPath": "/Users/sharan/.nuget/packages/",
-      "outputPath": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/",
+      "outputPath": "/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sharan/.nuget/NuGet/NuGet.Config"
@@ -4067,8 +4067,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/Bookings.Application.csproj": {
-              "projectPath": "/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Application/Bookings.Application.csproj"
+            "/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Application/Bookings.Application.csproj": {
+              "projectPath": "/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Application/Bookings.Application.csproj"
             }
           }
         }
