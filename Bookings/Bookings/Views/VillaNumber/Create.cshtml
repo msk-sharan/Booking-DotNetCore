@@ -1,0 +1,66 @@
+@using System.Collections.Specialized
+@model VillaNumberVM
+
+<div class="w-100 card-border-0 p-4">
+    <div class="card-header bg-success bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="text-white py-2">Create Villa Number</h1>
+            </div>
+        </div>
+    </div>
+    <div class="card-body border p-4">
+        <form method="post" class="row">
+            <div class="p-3">
+                @* We can add validation summery so that all the errors shows on the top. *@
+                @* <div asp-validation-summary="All"></div> *@
+                <div class="form-floating py-1 col-12">
+                    @* If the user selects an option, the VillaId property in the model will hold the Value
+                     of the selected <option>. *@
+                    @* The asp-items are teh options of teh dropdown *@
+                    
+                    @* <select asp-for="@Model.VillaId" asp-items="@ViewData["VillaList"] as IEnumerable<SelectListItem>" *@
+                    @* While using viewbag we dont have to convert it into IEnumerable *@
+                    <select asp-for="@Model.VillaNumber.VillaId" asp-items="@Model.VillaList"
+                    class="form-select border shadow">
+                        @* Dissabled is used so that the select villa option cannot be selected and selected is mentioned so  *@
+                        @* that the select villa acts as a place holder *@
+                        <option disabled selected>--Select Villa--</option>
+                    </select>
+                    @* <input asp-for="VillaId" class="form-control border shadow"/> *@
+                    <label asp-for="VillaNumber.VillaId" class="ms-2"></label>
+                    <span asp-validation-for="VillaNumber.VillaId" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-1 col-12">
+                    <input asp-for="VillaNumber.Villa_Number" class="form-control border shadow"/>
+                    <label asp-for="VillaNumber.Villa_Number" class="ms-2"></label>
+                    <span asp-validation-for="VillaNumber.Villa_Number" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-1 col-12">
+                    <input asp-for="VillaNumber.SpecialDetails" class="form-control border shadow"/>
+                    <label asp-for="VillaNumber.SpecialDetails" class="ms-2"></label>
+                    <span asp-validation-for="VillaNumber.SpecialDetails" class="text-danger"></span>
+                </div>
+                <div class="row pt-2">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-success w-100">
+                            <i class="bi bi-check-circle"></i> Create
+                        </button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="VillaNumber" asp-action="Index" class="btn btn-secondary w-100">
+                            <i class="bi bi-x-circle"></i> Cancel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@* This enables client side validation *@
+@section Scripts{
+@{
+<partial name="_ValidationScriptsPartial"/>
+}
+}

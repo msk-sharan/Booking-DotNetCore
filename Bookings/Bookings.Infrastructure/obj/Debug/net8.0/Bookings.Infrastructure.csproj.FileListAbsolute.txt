@@ -1,0 +1,40 @@
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Infrastructure.deps.json
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Infrastructure.runtimeconfig.json
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Infrastructure.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Infrastructure.pdb
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.csproj.AssemblyReference.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.AssemblyInfoInputs.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.AssemblyInfo.cs
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.sourcelink.json
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/refint/Bookings.Infrastructure.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.pdb
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.genruntimeconfig.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/ref/Bookings.Infrastructure.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Domain.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Domain.pdb
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.CC050BF8.Up2Date
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Application.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Application.pdb
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Infrastructure.deps.json
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Infrastructure.runtimeconfig.json
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Infrastructure.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Infrastructure.pdb
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Application.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Domain.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Application.pdb
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/bin/Debug/net8.0/Bookings.Domain.pdb
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.csproj.AssemblyReference.cache
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.AssemblyInfoInputs.cache
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.AssemblyInfo.cs
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.sourcelink.json
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.CC050BF8.Up2Date
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/refint/Bookings.Infrastructure.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.pdb
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/Bookings.Infrastructure.genruntimeconfig.cache
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Infrastructure/obj/Debug/net8.0/ref/Bookings.Infrastructure.dll

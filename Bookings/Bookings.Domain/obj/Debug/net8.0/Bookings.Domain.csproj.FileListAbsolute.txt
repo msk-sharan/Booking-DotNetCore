@@ -1,0 +1,24 @@
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/bin/Debug/net8.0/Bookings.Domain.deps.json
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/bin/Debug/net8.0/Bookings.Domain.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/bin/Debug/net8.0/Bookings.Domain.pdb
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.AssemblyInfoInputs.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.AssemblyInfo.cs
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.csproj.CoreCompileInputs.cache
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.sourcelink.json
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/refint/Bookings.Domain.dll
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.pdb
+/Users/sharan/Documents/OwnProjects/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/ref/Bookings.Domain.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/bin/Debug/net8.0/Bookings.Domain.deps.json
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/bin/Debug/net8.0/Bookings.Domain.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/bin/Debug/net8.0/Bookings.Domain.pdb
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.AssemblyInfoInputs.cache
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.AssemblyInfo.cs
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.csproj.CoreCompileInputs.cache
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.sourcelink.json
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/refint/Bookings.Domain.dll
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/Bookings.Domain.pdb
+/Users/sharan/Documents/Developer/ASP.Net Core/Booking-DotNetCore/Bookings/Bookings.Domain/obj/Debug/net8.0/ref/Bookings.Domain.dll
